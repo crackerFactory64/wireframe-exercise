@@ -24,7 +24,7 @@ section {
   margin-top: 1.5em;
 }
 
-.hero + section {
+main section:nth-child(2) {
   display: flex;
   justify-content: space-between;
 }
