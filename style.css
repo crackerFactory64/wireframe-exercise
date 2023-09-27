@@ -2,17 +2,26 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-header,
+header > *,
 main,
-footer {
+footer > * {
   margin: 0 auto;
   max-width: 960px;
   width: 90dvw;
 }
 
 header {
+  background-color: #ddd;
+  padding: 0.5em 0;
+}
+
+header > * {
   align-items: center;
   display: flex;
+}
+
+header img {
+  border: 1px solid;
 }
 
 header nav {
@@ -71,4 +80,10 @@ div > button {
 button:hover {
   background-color: black;
   color: #ddd;
+}
+
+footer {
+  background-color: #ddd;
+  height: 260px;
+  width: 100%;
 }
