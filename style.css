@@ -1,3 +1,7 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
 header,
 main,
 footer {
@@ -20,6 +24,11 @@ header ul {
   justify-content: space-around;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 section {
   margin-top: 1.5em;
 }
@@ -27,4 +36,39 @@ section {
 main section:nth-child(2) {
   display: flex;
   justify-content: space-between;
+}
+
+main section:nth-child(3) {
+  display: flex;
+  padding-bottom: 1.5em;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 2em;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h2 + p {
+  margin-top: 1em;
+  line-height: 1.5;
+}
+
+div > button {
+  background-color: #ddd;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: auto;
+  padding: 0.5em 0;
+  transition: 350ms;
+  width: 70%;
+}
+
+button:hover {
+  background-color: black;
+  color: #ddd;
 }
