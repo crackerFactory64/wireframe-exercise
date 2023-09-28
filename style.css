@@ -67,6 +67,7 @@ h2 + p {
   margin-top: 1em;
   overflow-y: scroll;
   line-height: 1.7;
+  padding-right: 1em;
 }
 
 div > button {
@@ -74,9 +75,9 @@ div > button {
   border: 1px solid;
   border-radius: 5px;
   margin-top: auto;
-  padding: 0.5em 0;
+  padding: 1em 0;
   transition: 350ms;
-  width: 70%;
+  width: 60%;
 }
 
 button:hover {
